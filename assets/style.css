@@ -123,6 +123,13 @@ h2 { font-size: 54px; text-align: center; }
 .meter { padding: 3px; height: 25px; width: 100%; border: 4px solid #22A39F; }
 .meter > .bar { display: block; background-color: #22A39F; height: 100%; width: 0%; }
 
+/*carousel/hobbies section */
+.carousel-caption {
+  top: 0;
+  bottom: auto;
+  background-color: rgb(0,0,0,0.5); 
+}
+
 /* contact section */
 .contact hr { border-top: 1px solid rgba(255, 255, 255, 0.1); }
 .contact h2, .contact p, .contact a { color: white }
@@ -131,3 +138,6 @@ h2 { font-size: 54px; text-align: center; }
 .contact a > img { height: 50px; width: 50px; }
 .contact a > span { padding-left: 10px; }
 .contact { width: 100%; display: flex; justify-content: space-between; }
+
+
+/* CSS Stylesheet based off of 2017 Carleton University webpage workshop */
